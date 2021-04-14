@@ -1,0 +1,11 @@
+Model Information:
+* title:	Greyhound
+* source:	https://sketchfab.com/3d-models/greyhound-31791b9b991948d58a0901e3f5e40cbe
+* author:	jnmart (https://sketchfab.com/jnmart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Greyhound" (https://sketchfab.com/3d-models/greyhound-31791b9b991948d58a0901e3f5e40cbe) by jnmart (https://sketchfab.com/jnmart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
