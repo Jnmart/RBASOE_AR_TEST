@@ -2,7 +2,7 @@ window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = ' Share! ';
 
-    rsaveCapture(element);
+    saveCapture(element);
 };
 
 function saveCapture(element) {
