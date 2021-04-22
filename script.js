@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = ' Screenshot! ';
+    button.innerText = ' Picture! ';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
