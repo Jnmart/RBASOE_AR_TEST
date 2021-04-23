@@ -4,7 +4,7 @@
   <!-- we import arjs version without NFT but with marker + location based support 10.24-->
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script> 
   <script src="./script.js"></script>
   <link rel="stylesheet" type="text/css" href="./style.css"/>
   <body style="margin : 0px; overflow: hidden;">
@@ -52,10 +52,42 @@
           animation-mixer>
           </a-gltf-model>
       </a-marker>
+      <a-marker type="barcode" value="2">
+          <a-image 
+          position="0 0 0"
+          scale="1.2 1.2 1.2"
+          rotation="-90 0 0" 
+          src="./pics/1.jpg">
+          </a-image>
+          <a-image 
+          position="-1 -1 0"
+          scale="1.2 1.2 1.2"
+          rotation="-90 0 0" 
+          src="./pics/2.jpg">
+          </a-image>
+          <a-image 
+          position="1 1 0"
+          scale="1.2 1.2 1.2"
+          rotation="-90 0 0" 
+          src="./pics/3.jpg">
+          </a-image>
+          <a-image 
+          position="0 -1 -1"
+          scale="1.2 1.2 1.2"
+          rotation="-90 0 0" 
+          src="./pics/4.jpg">
+          </a-image>
+          <a-image 
+          position="0 1 1"
+          scale="1.2 1.2 1.2"
+          rotation="-90 0 0" 
+          src="./pics/5.jpg">
+          </a-image>
+      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
     <div class="centered">
-        <button data-action="change"></button>
+       <button onclick="screenShot()" type="button">Share!</button>
     </div>
   </body>
 </html>
