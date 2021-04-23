@@ -1,12 +1,6 @@
-window.onload = () => {
-    const button = document.querySelector("#btnSave");
-    button.innerText = ' Share! ';
+function screenShot()
+{
+var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");  // here is the most important part because if you dont replace you will get a DOM 18 exception.
 
-    saveCapture(element);
-};
-
-function saveCapture(element) {
-  html2canvas(element).then(function(canvas) {
-    download(canvas.toDataURL("image/png"));
-  })
-}
+window.location.href=image; // it will save locally                     
+}  
