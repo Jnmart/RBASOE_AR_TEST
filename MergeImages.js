@@ -9,7 +9,7 @@ function resizeCanvas(origCanvas, width, height) {
     return resizedCanvas.toDataURL();
 }
  
-document.getElementById("scr-button").addEventListener("click", function() {
+function screenShot() {
     let aScene = document.querySelector("a-scene").components.screenshot.getCanvas("perspective");
     let frame = captureVideoFrame("video", "png");
     aScene = resizeCanvas(aScene, frame.width, frame.height);
@@ -22,4 +22,4 @@ document.getElementById("scr-button").addEventListener("click", function() {
         link.click();
     console.log("Screenshot taken");
     });
-});
+};
